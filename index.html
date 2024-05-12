@@ -3,40 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image Search App</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.0/simple-lightbox.min.css"
+    />
     
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-14123e35.js">
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-5a8da6d3.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-0fc460d7.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-4b066c51.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-3b11af9a.css">
   </head>
   <body>
-    <form class="form" id="search-form">
-      <label>
-        <input
-          class="input-form"
-          id="search-input"
-          type="text"
-          placeholder="Search images..."
-          name="delay"
-        />
-      </label>
-      <button class="main-btn" type="submit">Search</button>
+    <form class="search-form">
+      <div class="">
+        <input type="text" class="search-input" placeholder="Search images..." name="searchKeyword" />
+      </div>
+      <button type="submit" class="search-btn" >Search</button>
     </form>
-
-    <section class="gallery" id="gallery">
-      <!-- Images will be displayed here -->
-      <span class="loader"></span>
-    </section>
+    <ul class="gallery"></ul>
+    <span class="loader position is-hidden"></span>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js"
       type="module"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.1.0/simple-lightbox.min.js"></script>
+
     
   </body>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
